@@ -1,0 +1,18 @@
+{
+  "name": "juicy",
+  "version": "1.0.0",
+  "description": "Dependency Injection Library for Javscript",
+  "main": "index.js",
+  "scripts": {
+    "build-dist": "browserify ./src/index.js > ./dist/juicy.js --standalone 'Juicy'"
+  },
+  "keywords": [
+    "DI",
+    "IoC"
+  ],
+  "author": "Shashwat Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.4.1"
+  }
+}
