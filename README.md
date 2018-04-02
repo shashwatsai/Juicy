@@ -2,12 +2,14 @@
 
 Juicy is a simple Inversion of Control Library for javascript. Available for both browsers and commonJS module specifications like nodeJS
 
-### Prerequisites
+### Prerequisites | Using in Browsers
 
 install browserify, you can install locally as well, but you will have to change the package.json
 
 ```
 npm install -g browserify
+
+npm run build-dist
 ```
 
 ### Getting Started
